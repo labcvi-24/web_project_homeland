@@ -14,3 +14,10 @@ Tipografía: Inter
 Diseño responsivo
 
 
+autor:
+luisandra briceño 
+
+pueden encontrar mi pagina aqui:
+
+https://labcvi-24.github.io/web_project_homeland/
+
