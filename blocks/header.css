@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   margin-top: 90px;
-  ;
+
 }
 
 .header__title{
@@ -27,6 +27,8 @@
 
 
 
+
+
 @media (max-width: 768px){
   .header__title{
     max-width: 530px;
@@ -36,8 +38,9 @@
 
   .header__subtitle{
     margin: 30px auto 33px;;
-
   }
+
+
 
 }
 

@@ -1,15 +1,25 @@
-.footer__copyright{
+
+.footer{
   text-align: center;
-  margin-top: 90px;
   font-size: 14px;
   line-height: 1.1;
+  margin-top: 90px;
+
+
+
+}
+
+.footer__copyright{
+  margin: 0;
+
+
 }
 
 
 
 @media (max-width: 320px){
   .footer__copyright{
-    margin-top: 70px;
+
   }
 
 }
