@@ -1,7 +1,17 @@
-.photo__gallery{
+.photo{
   width: 100vw;
   margin-left: calc(-50vw + 50%);
 
+}
+
+.photo__title{
+  max-width: 830px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  text-align: center;
+  margin: 90px auto;
 }
 
 .photo__grid{
@@ -21,12 +31,27 @@
     grid-template-columns: repeat(2, 1fr);
     margin: 15px
   }
+
+  .photo__title{
+    max-width: 707px;
+    font-size: 45px;
+    line-height: 49px;
+    letter-spacing: -1px;
+}
+
 }
 
 @media (max-width: 320px){
   .photo__grid{
     display: flex;
     flex-direction: column;
+  }
+
+  .photo__title{
+    font-size: 32px;
+    line-height: 35px;
+    margin: 50px auto;
+
   }
 
 }
