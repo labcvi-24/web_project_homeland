@@ -40,7 +40,7 @@
 
 
 
-@media (max-width: 768px){
+@media (min-width:450px) and (max-width: 768px){
   .intro{
     max-width:95%;
     margin: 20px auto 0;
@@ -64,20 +64,22 @@
 
 }
 
-@media (max-width:320px){
+@media (min-width:320px) and (max-width:450px){
   .intro{
-    margin: 35px auto 0;
-    max-width: 288px;
+    margin: 35px 15px 0;
+
   }
 
   .intro__title{
     font-size: 32px;
     line-height: 35px;
 
+
   }
 
   .intro__text{
-    line-height: 30px;
+    line-height: 30px
+
 
   }
 }

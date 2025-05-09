@@ -76,6 +76,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 
 .place__frame:hover{
@@ -121,6 +122,7 @@
   }
   .place__paragraph{
     font-size: 16px;
+
   }
 
   .place__paragraphs{
@@ -143,15 +145,16 @@
 }
 
 
-@media (max-width: 320px){
+@media (min-width:320px) and (max-width: 450px){
   .place__grid{
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
   }
 
   .place__Title{
     max-width: 288px;
-    margin: auto;
+    margin: 0 15px;
 
   }
   .place__website{
@@ -165,11 +168,11 @@
   }
 
   .place__paragraph{
-    max-width: 288px;
-    margin: 15px auto;
+    margin: auto 15px;
   }
 
   .place__frame{
     margin: auto 15px;
+    padding: 15px;
   }
 }
