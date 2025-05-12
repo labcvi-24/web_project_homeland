@@ -44,6 +44,7 @@
 
 .place__image{
   width: 100%;
+  object-fit: cover;
   box-shadow: 10px 10px 25px #000;
 }
 
@@ -94,6 +95,7 @@
 
 }
 
+
 .place__catatumbo{
   margin-top: 95px;
 }
@@ -102,11 +104,10 @@
   max-width: 484px;
 }
 
-@media (max-width: 768px){
-  .places{
-    row-gap: 50px;
-  }
 
+
+
+@media (min-width:769)and (max-width:1024px){
   .place__grid{
     grid-template-columns: 340px 352px;
     grid-template-rows: 89px 342px 48px 85px;
@@ -114,20 +115,43 @@
     gap: 38px 15px;
 
   }
+
+
+}
+
+
+@media (min-width: 576px) and (max-width:768px){
+  .places{
+    row-gap: 50px;
+  }
+
+  .place__grid{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    gap: 20px
+
+  }
   .place__Title{
     font-size: 42px;
     line-height: 46px;
 
 
+
   }
   .place__paragraph{
     font-size: 16px;
+    margin: 20px 0;
 
   }
 
   .place__paragraphs{
     grid-column: 2/3;
     grid-row:2/5 ;
+  }
+
+  .place__frame{
+    margin: auto;
   }
 
   .place__span-artist{
@@ -145,16 +169,19 @@
 }
 
 
-@media (min-width:320px) and (max-width: 450px){
+@media (min-width:320px) and (max-width: 576px){
   .place__grid{
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin: 50px auto;
+    gap: 20px
   }
 
   .place__Title{
     max-width: 288px;
     margin: 0 15px;
+    font-size: 32px;
+    line-height: normal;
 
   }
   .place__website{
@@ -169,10 +196,22 @@
 
   .place__paragraph{
     margin: auto 15px;
+    margin-bottom: 10px;
+
+
   }
 
   .place__frame{
     margin: auto 15px;
     padding: 15px;
+    max-width: 85%;
+
   }
+
+  .place__catatumbo{
+    max-width: 484px;
+
+  }
+
+
 }

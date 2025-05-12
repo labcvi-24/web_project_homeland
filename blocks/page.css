@@ -8,14 +8,28 @@
   position: relative;
   min-height: 100vh;
   box-sizing: border-box;
+
 }
 
 
 
 
-@media (max-width: 768px) {
+@media (min-width:769) and (max-width:1024px){
   .page{
-    width: 100%;
+
+  }
+}
+
+@media (min-width: 576px) and (max-width:768px){
+  .page{
+
+
+  }
+}
+
+@media (min-width: 320px) and (max-width:576px){
+  .page{
+
 
   }
 }
